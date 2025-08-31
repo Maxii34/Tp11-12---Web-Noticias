@@ -6,13 +6,13 @@ const Inicio = () => {
   return (
     <Container>
       <section className=" border-primary my-4 text-center mx-2">
-        <h1 className="fw-bold display-5">Buscar noticias</h1>
+        <h1 className="fw-bold display-5 text-info">Buscar noticias</h1>
         <div>
           <Form className="mt-3 sect">
             <Form.Group className="mb-3">
               <Form.Select
                 aria-label="Selecciona una categoria"
-                className="EfectoTransparente"
+                className="EfectoTransparente text-light"
               >
                 <option value="">Selecciona una categoria</option>
                 <option value="business">Negocios</option>

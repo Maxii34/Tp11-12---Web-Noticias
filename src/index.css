@@ -8,6 +8,15 @@ main {
 }
 
 
+body {
+  background-image: url("https://img.freepik.com/vector-gratis/antecedentes-boletin-noticias-tierra-sobre-tecnologia-global_1017-33687.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;   
+  background-attachment: fixed; 
+  background-position: center;
+}
+
+
 .btn-css {
   background-color: #212529; 
   color: #fff;               
@@ -26,7 +35,7 @@ main {
               background-color .15s ease-in-out,
               border-color .15s ease-in-out,
               box-shadow .15s ease-in-out;
-box-shadow: 0 0 10px rgba(255,255,255,0.4);
+box-shadow: 0 0 10px rgba(255,255,255,0.8);
 }
 
 .btn-css:hover {
@@ -62,4 +71,77 @@ select option:checked {
   margin: 0 auto;
   padding: 20px;  
   box-sizing: border-box;
+}
+
+.button2 {
+  padding: 4px 20px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: #151515ef;
+  color: #eee;
+  border-radius: 8px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease-out;
+}
+
+.button2:hover {
+  color: #4a62d1;
+  transform: translateY(-3px);
+  box-shadow: 0 1px 2px rgba(255, 255, 255, 0.233), 0 5px 10px rgba(252, 251, 251, 0.4);
+}
+
+.button-span {
+  color: #aaa;
+}
+
+.CardsApy-css {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: box-shadow 0.5s ease-in-out;
+  height: 100%;
+  user-select: none;
+}
+
+.CardsApy-css:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+
+.CardsApy-css-top {
+  object-fit: cover;
+  height: 200px;
+}
+
+.button {
+  padding: 4px 20px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: #151515ef;
+  color: #eee;
+  border-radius: 8px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease-out;
+}
+
+.button2:hover {
+  color: #4a62d1;
+  transform: translateY(-3px);
+  box-shadow: 0 1px 2px rgba(17, 16, 16, 0.836), 0 5px 10px rgba(51, 45, 45, 0.795);
+}
+
+.button-span {
+  color: #aaa;
+}
 
