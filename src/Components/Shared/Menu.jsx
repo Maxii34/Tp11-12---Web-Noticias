@@ -12,6 +12,7 @@ const Menu = () => {
           <Nav className="ms-auto">
             <Nav.Link href="/" className="text-light btn-css mx-2">Tp:11</Nav.Link>
             <Nav.Link href="/Tp12" className="text-light btn-css mx-2">Tp:12</Nav.Link>
+            <Nav.Link href="/Tp12" className="text-light btn-css mx-2">Repositorio</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -34,3 +34,32 @@ box-shadow: 0 0 10px rgba(255,255,255,0.4);
   border-color: #1a1e21;
   color: #fff;
 }
+
+.EfectoTransparente {
+    background-color: #0b224e2b;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 
+        0 4px 30px rgba(0, 0, 0, 0.1),
+        inset 0 1px 1px rgba(255, 255, 255, 0.1);
+    transition: all 300ms ease;
+}
+
+select option {
+  background-color: #1e2636a9; 
+  color: white;             
+}
+
+select option:checked {
+  background-color: #1c20279c; 
+  color: white;
+}
+
+.sect {
+  max-width: 600px;       
+  margin: 0 auto;
+  padding: 20px;  
+  box-sizing: border-box;
+
