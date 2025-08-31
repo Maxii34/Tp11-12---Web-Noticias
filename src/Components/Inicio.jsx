@@ -1,4 +1,6 @@
 import { Form, Button, Container } from "react-bootstrap";
+import {ContainerCards11 } from "./ContainerCards";
+
 
 const Inicio = () => {
   return (
@@ -28,6 +30,9 @@ const Inicio = () => {
               Buscar Noticias
             </Button>
           </Form>
+        </div>
+        <div>
+        <ContainerCards11 />
         </div>
       </section>
     </Container>

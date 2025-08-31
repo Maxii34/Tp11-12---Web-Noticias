@@ -1,4 +1,7 @@
 import { Form, Button } from "react-bootstrap";
+import {ContainerCards12 } from "./ContainerCards";
+
+
 
 const Tp12Noticias = () => {
   return (
@@ -43,6 +46,9 @@ const Tp12Noticias = () => {
             Buscar Noticias
           </Button>
         </Form>
+      </div>
+      <div>
+        <ContainerCards12 />
       </div>
     </section>
   );
