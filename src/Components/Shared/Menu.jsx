@@ -18,7 +18,7 @@ const Menu = () => {
             <Nav.Link href="/Tp12" className="button mx-2">
               <i class="bi bi-bookmark-check fs-5 mx-1"></i> Tp:12
             </Nav.Link>
-            <Nav.Link href="/Tp12" className="button mx-2">
+            <Nav.Link href="https://github.com/Maxii34/Tp11-12---Web-Noticias" className="button mx-2" target="_blank">
               <i class="bi bi-github fs-5 mx-1"></i> Repositorio
             </Nav.Link>
           </Nav>
