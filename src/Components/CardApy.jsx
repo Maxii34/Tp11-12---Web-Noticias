@@ -20,7 +20,7 @@ export const CardApy11 = ({ datoNoticia }) => {
           </span>
           <br />
           <span>
-            <strong>Fuente:</strong> {datoNoticia.source_id}
+            <b>Fuente:</b> {datoNoticia.source_id}
           </span>
         </Card.Text>
         <a
@@ -55,7 +55,7 @@ export const CardApy12 = ({ datoNoticia2 }) => {
           </span>
           <br />
           <span>
-            <strong>Fuente:</strong> {datoNoticia2.source_id}
+            <b>Fuente:</b> {datoNoticia2.source_id}
           </span>
         </Card.Text>
         <a

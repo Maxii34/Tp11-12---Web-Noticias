@@ -104,13 +104,18 @@ select option:checked {
   border: 1px solid #ddd;
   border-radius: 5px;
   overflow: hidden;
-  transition: box-shadow 0.5s ease-in-out;
+  transition: 
+    box-shadow 0.5s ease-in-out,
+    transform 0.3s ease-in-out; /* ← Nuevo: para el movimiento */
   height: 100%;
   user-select: none;
+  display: flex;
+  flex-direction: column;
 }
 
 .CardsApy-css:hover {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.9); 
+  transform: translateY(-5px); 
 }
 
 .CardsApy-css-top {
@@ -118,8 +123,58 @@ select option:checked {
   height: 200px;
 }
 
+.CardsApy-css .card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 0.5rem;
+  overflow: hidden;
+}
+
+.CardsApy-css .card-title {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.3;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
 .description {
-height: 400px;
+  font-size: 0.9rem;
+  color: #aaa;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+.CardsApy-css span strong {
+  color: #fff;
+}
+
+.CardsApy-css .button2 {
+  margin-top: auto;
+  align-self: flex-start;
+  background-color: #007bff;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  transition: background 0.3s;
+  transform: 500ms;
+}
+
+.CardsApy-css .button2:hover {
+  background-color: #0056b3;
+  color: #ffffff;
+  transform: 500ms;
 }
 
 
