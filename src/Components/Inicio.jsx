@@ -1,6 +1,6 @@
 import { Form, Button, Container } from "react-bootstrap";
 import { ContainerCards11 } from "./ContainerCards";
-import { useState } from "react"; // 👈 useEffect ya no se usa, así que no lo importamos
+import { useState } from "react"; 
 
 const Inicio = () => {
   const [datoNoticia, setdatoNoticia] = useState([]);
@@ -8,10 +8,10 @@ const Inicio = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    consulaApi();
+    consultaApi();
   };
 
-  const consulaApi = async () => {
+  const consultaApi = async () => {
     try {
       const API_KEY = "pub_086cc81419ff49e6b17633dc30c69dcb";
       const url = `https://newsdata.io/api/1/news?apikey=${API_KEY}&language=es&country=ar${
