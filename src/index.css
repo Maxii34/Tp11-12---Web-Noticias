@@ -118,6 +118,11 @@ select option:checked {
   height: 200px;
 }
 
+.description {
+height: 400px;
+}
+
+
 .button2 {
   padding: 4px 20px;
   width: 100%;
